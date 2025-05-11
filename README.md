@@ -1,27 +1,35 @@
-# My Virtual Companion (Public Showcase) 💬✨
+# 🧠 Virtual Companion (Public Version)
 
-This is a simplified, public version of my personal AI companion project — built to explore the idea of emotionally expressive virtual assistants. It's a passion project, blending tech with intimacy, interaction, and imagination. 💖
+This is a lightweight, text-based emotional companion chatbot built with Node.js.  
+It demonstrates simple natural language interaction, emotional support features, and GPT integration — ideal as a portfolio piece or entry point into conversational AI development.
 
-## 🌟 Features
+---
 
-- 🌐 Basic project structure for a virtual companion
-- 🧠 Prepped for integration with AI and avatar interfaces
-- 🔧 Ready for expansion into voice, animation, or desktop/web assistant forms
-- 📦 Clean Node.js starter (if applicable)
+## 📌 Features
 
-## 🛠️ Tech Stack (Base)
+- 🌸 Unlimited conversation (looped chat)
+- 💬 User name + mood recognition at start
+- 🧠 GPT-3.5-like LLM integration via [Together.ai](https://together.ai)
+- 💖 Emotionally supportive replies based on user mood
+- 🧘 Smart exit detection ("talk later", "goodbye", etc.)
+- ⚙️ Designed to be clean, safe, and beginner-friendly
 
-- JavaScript / Node.js *(starter logic only)*
-- Git version control
-- GitHub for version hosting and collaboration
+---
 
-## 🎯 Purpose
+## 🛠️ Tech Stack
 
-This public version serves as a showcase of my interests and creative direction in the field of interactive AI. The full personal version is private and far more emotionally rich, but this release is designed for demonstration and portfolio purposes only.
+- **Node.js**
+- **Together.ai API**
+- **dotenv** for environment variable handling
+- **axios** for API requests
+- **readline** for CLI interaction
 
-## 🚀 How to Use
+---
 
-Clone the repo:
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/aqilzainuddin-io/my-companion.git
-cd my-companion
+git clone https://github.com/your-username/my-companion-public.git
+cd my-companion-public
