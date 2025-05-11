@@ -33,3 +33,21 @@ It demonstrates simple natural language interaction, emotional support features,
 ```bash
 git clone https://github.com/your-username/my-companion-public.git
 cd my-companion-public
+
+
+### 2. Install dependencies
+
+```bash
+npm install
+
+
+### 3. Create a .env file
+
+```bash
+TOGETHER_API_KEY=your_api_key_here
+
+
+### 4. Run the app
+
+```bash
+node index.js
